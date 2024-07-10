@@ -76,7 +76,12 @@
   );
   cursor: pointer;
 }
-.place__paragraph_button {
+.place__link-button {
+  width: fit-content;
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 18px;
+  text-align: center;
   font-weight: 600;
   text-align: center;
 }
@@ -131,7 +136,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 370px) {
   .place {
     width: 100%;
   }
@@ -149,6 +154,9 @@
     flex-direction: column;
     margin-bottom: 128px;
   }
+  .place__left-side {
+    gap: 0;
+  }
   .place__image-wrapper {
     margin: 0;
     width: 100%;
@@ -158,6 +166,8 @@
     box-shadow: none;
   }
   .place__button {
+    /*mi solución para cambiar el lugar del botón estimando espacios entre
+    elementos de acuerdo al brief*/
     width: 90%;
     margin: auto;
     position: absolute;
@@ -171,5 +181,8 @@
   .place__title {
     font-size: 32px;
     line-height: 35px;
+  }
+  .place__link-button {
+    font-size: 14px;
   }
 }

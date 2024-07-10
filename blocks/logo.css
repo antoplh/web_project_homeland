@@ -4,3 +4,10 @@
   width: 100%;
   text-align: center;
 }
+
+@media screen and (max-width: 320px) {
+  .logo img {
+    width: 60%;
+    object-fit: cover;
+  }
+}
