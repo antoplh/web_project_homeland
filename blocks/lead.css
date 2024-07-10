@@ -27,8 +27,8 @@
 
 @media screen and (max-width: 800px) and (min-width: 321px) {
   .lead__title {
-    margin-left: 119px;
-    margin-right: 119px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 75px;
     line-height: 79px;
   }
@@ -36,11 +36,12 @@
     margin-left: 0;
     margin-right: 0;
   }
+}
+@media screen and (max-width: 984px) {
   .lead__image {
     width: 100%;
   }
 }
-
 @media screen and (max-width: 320px) {
   .lead__title {
     margin-left: 0;
@@ -53,8 +54,5 @@
     margin-right: 0;
     margin-bottom: 40px;
     font-size: 16px;
-  }
-  .lead__image {
-    width: 100%;
   }
 }
