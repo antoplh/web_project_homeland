@@ -41,7 +41,6 @@
   display: inline-block;
   cursor: pointer;
   background-color: #00000050;
-  box-shadow: 10px 10px 25px 0px #00000080;
   content: "";
   position: absolute;
   top: 0;
