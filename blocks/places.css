@@ -149,10 +149,6 @@
   .places__image-wrapper {
     background-color: transparent;
   }
-  .places__image {
-    box-shadow: none;
-  }
-
   .places__title {
     font-size: 32px;
     line-height: 35px;
